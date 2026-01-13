@@ -3,7 +3,10 @@
   "name": "Green Dialectical Evaluator",
   "description": "A multi-dimensional AI scoring agent based on the Thesis-Antithesis-Synthesis (TAS) logic, focusing on the balance between academic rigor and heuristic feedback.",
   "repository": "https://github.com/Champion31415926/agentx-qa-evaluator",
-  "author": "MRBP",
+  "env": {
+    "NEBIUS_API_KEY": "${NEBIUS_API_KEY}",
+    "MODEL": "meta-llama/Llama-3.3-70B-Instruct"
+  },
   "task_ids": [
     "multidimensional_test_001",
     "logic_error_test_002"
