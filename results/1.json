@@ -1,13 +1,11 @@
 {
   "id": "019bb2de-646b-7652-a87e-838b3f092c65",
-  "agent_id": "purple_agent",
   "task_id": "task-001",
+  "agent_id": "purple_agent",
   "score": 0.85,
   "awarded_score": 0.85,
-  "reasoning": "Passed manual check.",
+  "reason": "The answer is accurate and concise.",
+  "reasoning": "The answer is accurate and concise.",
   "purple_answer": "This is a mock response.",
-  "status": "completed",
-  "metrics": {
-    "accuracy": 0.85
-  }
+  "status": "completed"
 }
