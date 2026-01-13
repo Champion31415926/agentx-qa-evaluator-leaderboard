@@ -33,6 +33,7 @@ jobs:
       - name: Pull images
         run: |
           if ! docker compose pull; then
+            echo "Failed to pull images"
             exit 1
           fi
 

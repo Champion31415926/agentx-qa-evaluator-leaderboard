@@ -1,26 +1,22 @@
 [green_agent]
 agentbeats_id = "019bb2de-644f-7c52-a4ee-dc23e50b61cc"
-# Using ${} syntax to reference GitHub Secrets for the API Key
 env = { NEBIUS_API_KEY = "${NEBIUS_API_KEY}", LOG_LEVEL = "INFO" }
 
 [[participants]]
 name = "purple_agent"
-agentbeats_id = ""
+agentbeats_id = "019b8f44-ae38-75b0-89d7-fc256fa36446"
 env = {}
 
 [config]
-# Matches TaskInput model fields
 task_id = "eval_task_001"
 subject = "Quantum Physics Fundamentals"
 question = "Explain the concept of Quantum Entanglement and its primary application in secure communication."
-
-# Evaluation parameters for your map_value_to_prompt logic
-strictness = 0.8        # High focus on technical terminology
-tone = 0.4              # Constructive coaching style
-audience = 0.7          # Professional level synthesis
+strictness = 0.8
+tone = 0.4
+audience = 0.7
 focus_areas = ["Scientific Accuracy", "Logical Consistency", "Terminology Rigor"]
+purple_answer = ""
 
-# Mapping to List[ReferenceAnswer]
 [[config.reference_answers]]
 text = "The answer must mention the concept of non-locality or Bell's inequality violation."
 max_score = 5.0
@@ -32,6 +28,3 @@ max_score = 3.0
 [[config.reference_answers]]
 text = "The response must clarify that information cannot travel faster than light."
 max_score = 2.0
-
-# Initial placeholder for the agent's response
-purple_answer = ""
