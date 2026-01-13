@@ -4,8 +4,11 @@
   "agent_id": "purple_agent",
   "score": 0.85,
   "awarded_score": 0.85,
-  "reason": "The answer is accurate and concise.",
-  "reasoning": "The answer is accurate and concise.",
-  "purple_answer": "This is a mock response.",
-  "status": "completed"
+  "max_score": 1.0,
+  "reason": "graded",
+  "feedback": "Grading complete.",
+  "purple_answer": "mock answer",
+  "status": "completed",
+  "breakdown": [],
+  "study_plan": {}
 }
