@@ -1,14 +1,13 @@
 {
   "id": "019bb2de-646b-7652-a87e-838b3f092c65",
-  "task_id": "task-test-001",
-  "agent_id": "green-agent",
+  "agent_id": "purple_agent",
+  "task_id": "task-001",
   "score": 0.85,
-  "metrics": {
-    "accuracy": 0.85,
-    "efficiency": 0.92
-  },
-  "purple_answer": "This is a mocked purple agent response.",
-  "reasoning": "The agent followed all instructions correctly in this simulation.",
+  "awarded_score": 0.85,
+  "reasoning": "Passed manual check.",
+  "purple_answer": "This is a mock response.",
   "status": "completed",
-  "timestamp": "2026-01-13T06:30:00Z"
+  "metrics": {
+    "accuracy": 0.85
+  }
 }
